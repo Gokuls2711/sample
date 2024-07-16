@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+  background-color: #40c245;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.check {
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
+}
