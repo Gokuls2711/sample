@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .button{
+            background-color: blue;
+            padding: 5px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Input Form</h1>
+    <form action="">
+        <label for="firstname">First Name:</label> <br>
+        <input type="text" id="firstname" name="firstname" placeholder="Firstname"> <br><br>
+        <label for="lastname">Last Name:</label><br>        
+        <input type="text" id="lastname" name="lastname" placeholder="Lastname"> <br><br>
+        <label for="mobile no.">Mobile Number</label> <br>
+        <input type="number" id="mobile no." name="mobile no." placeholder="Mobile No"> <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1>Radio Button</h1>
+    <form action="">
+        <p>Select your favorite food:</p>   
+        <input type="radio" id="briyani" name="food" value="briyani">    
+        <label for="briyani">Briyani</label>  <br><br>
+        <input type="radio" id="naan" name="food" value="naan">    
+        <label for="naan">Naan</label> <br><br>
+        <input type="radio" id="parotta" name="food" value="parotta">    
+        <label for="parotta">Parotta</label>  <br><br>
+        <button class="button">Submit</button>
+    </form>
+
+    <h1>Checkbox</h1>
+    <form action="">
+        <p>Select your favorite bike brand:</p>   
+        <input type="checkbox" id="royalenfield" name="royalenfield" value="bike">    
+        <label for="royalenfield">Royal Enfield</label>  <br><br>
+        <input type="checkbox" id="harleydavison" name="harleydavison" value="bike">    
+        <label for="harleydavison">Harley Davidson</label> <br><br>
+        <input type="checkbox" id="Yamaha" name="yamaha" value="bike">    
+        <label for="yamaha">Yamaha</label> <br><br>
+        <button class="button">Submit</button>
+    </form>
+</body>
+</html>
