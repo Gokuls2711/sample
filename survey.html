@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <style>
+      .button {
+        border: 20px;
+        border-radius: 6px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(20, 20, 197);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Survey Form</h1>
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="name">Name:</label> <br />
+        <input type="text" id="name" name="name" placeholder="Name" />
+        <br /><br />
+
+        <form action="">
+          <p>Gender</p>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other" />
+          <label for="other">Other</label>
+          <br /><br />
+        </form>
+
+        <label for="age">Age:</label> <br />
+        <input type="number" id="age" name="age" placeholder="0" /><br /><br />
+
+        <label for="mobile no.">Mobile Number:</label> <br />
+        <input
+          type="number"
+          id="mobile no."
+          name="mobile no."
+          placeholder="Mobile No"
+        />
+        <br /><br />
+
+        <label for="alternate no.">Alternate Number:</label> <br />
+        <input
+          type="number"
+          id="alternate no."
+          name="alternate no."
+          placeholder="Alternate No"
+        />
+        <br /><br />
+
+        <label for="address">Address:</label> <br />
+        <textarea
+          id="address"
+          name="address"
+          rows="5"
+          cols="20"
+          placeholder="Type your address here"
+        ></textarea
+        ><br /><br />
+
+        <label for="email">Email:</label> <br />
+        <input type="email" id="email" name="email" placeholder="E-mail Id" />
+        <br /><br />
+
+        <label for="address">Describe Yourself:</label> <br />
+        <textarea
+          id="address"
+          name="address"
+          rows="5"
+          cols="20"
+          placeholder="Describe Yourself"
+        ></textarea
+        ><br /><br />
+
+        <p>To do list:</p>
+        <input
+          type="radio"
+          id="Career-goals"
+          name="to-do-list"
+          value="Career-goals"
+        />
+        <label for="Career-goals">Career Goals</label>
+        <input type="radio" id="trip" name="to-do-list" value="trip" />
+        <label for="trip">Trip</label>
+        <input
+          type="radio"
+          id="fitness-goals"
+          name="to-do-list"
+          value="fitness-goals"
+        />
+        <label for="fitness-goals">Fitness Goals</label>
+        <input
+          type="radio"
+          id="family-time"
+          name="to-do-list"
+          value="family-time"
+        />
+        <label for="family-time">Family Time</label>
+        <br /><br />
+
+        <p>Choose the course you want to learn:</p>
+        <input type="checkbox" id="fullstack" name="fullstack" value="course" />
+        <label for="fullstack">Full Stack</label> <br /><br />
+        <input type="checkbox" id="testing" name="testing" value="course" />
+        <label for="testing">Testing</label> <br /><br />
+        <input
+          type="checkbox"
+          id="data-analyst"
+          name="data-analyst"
+          value="course"
+        />
+        <label for="data-analyst">Data Analyst</label> <br /><br />
+        <input
+          type="checkbox"
+          id="artificial-intelligence"
+          name="artificial-intelligence"
+          value="course"
+        />
+        <label for="artificial-intelligence">Artificial Intelligence</label>
+        <br /><br />
+
+        <label for="state">State:</label>
+        <select name="state" id="state">
+          <option value="tamilnadu">Tamil Nadu</option>
+          <option value="kerala">Kerala</option>
+          <option value="karnataka">Karnataka</option>
+          <option value="andhra-pradesh">Andhra pradesh</option>
+          <option value="telungana">Telungana</option>
+          <option value="maharastra">Maharastra</option>
+        </select>
+        <br /><br />
+
+        <label for="district">District:</label>
+        <select name="district" id="district">
+          <option value="erode">Erode</option>
+          <option value="coimbatore">Coimbatore</option>
+          <option value="namakkal">Namakkal</option>
+          <option value="tiruppur">Tiruppur</option>
+          <option value="karur">Karur</option>
+          <option value="salem">Salem</option>
+        </select>
+
+        <br /><br />
+
+        <label for="total-students">Total No. of Students:</label>
+        <output id="total-students" name="total-students">50</output> <br />
+        <label for="students-present">No. of Students Present:</label>
+        <output id="students-present">44</output><br />
+        <label for="students-absent">No. of Students Absent:</label>
+        <output id="students-absent">6</output>
+        <br /><br />
+
+        <button
+          type="button"
+          class="button"
+          onclick="alert('Thank you for submitting!')"
+        >
+          Submit
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>
